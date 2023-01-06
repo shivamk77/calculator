@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="formstyle">
+        <form name="forms" class="forms">
+            <input type="text" name="answer" class="display"><br><br>
+            <div class="clear">
+                <input type="button" id="clear" value="Clear All" onclick="forms.answer.value = ''">
+              
+            </div>
+
+            <div class="operation">
+                <input type="button" value="" id="frow" onclick="forms.answer.value += '7'">
+                <input type="button" value="" id="frow" onclick="forms.answer.value += '8'">
+                <input type="button" value="" id="frow" onclick="forms.answer.value += '9'">
+                <input type="button" value="" id="frow" onclick="forms.answer.value += '/'">
+                <br>
+                <input type="button" value="" id="srow" onclick="forms.answer.value += '4'">
+                <input type="button" value="" id="srow" onclick="forms.answer.value += '5'">
+                <input type="button" value="" id="srow" onclick="forms.answer.value += '6'">
+                <input type="button" value="" id="srow" onclick="forms.answer.value += '*'">
+                <br>
+                <input type="button" value="" id="trow" onclick="forms.answer.value += '1'">
+                <input type="button" value="" id="trow" onclick="forms.answer.value += '2'">
+                <input type="button" value="" id="trow" onclick="forms.answer.value += '3'">
+                <input type="button" value="" id="trow" onclick="forms.answer.value += '-'">
+                <br>
+                <input type="button" value="" id="lrow" onclick="forms.answer.value += '0'">
+                <input type="button" value="" id="lrow" onclick="forms.answer.value += '.'">
+                <input type="button" value="" id="lrow" onclick="forms.answer.value += '+'">
+                <input type="button" value="" id="lrow" onclick="forms.answer.value = eval(forms.answer.value)">
+                <br>
+            </div>
+        </form>
+
+</body>
+
+</html>
